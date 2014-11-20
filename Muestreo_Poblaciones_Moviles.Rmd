@@ -1,0 +1,166 @@
+---
+title: 'Muestreo en Poblaciones Móviles: Caso específico en centros comerciales'
+author: "Felipe Jiménez"
+date: "Saturday, November 08, 2014"
+output:
+  pdf_document
+---
+
+--------------------------------------------------------------------------------------
+
+#Resumen ejecutivo
+
+Se explora el artículo "*Improving the Quality of shopping Center Sampling*" de Seymour Sudman en el que se indica que un procedimiento de muestreo riguroso en centros comerciales puede obtener muestras solamente  marginalmente sesgadas con respecto a muestras probabilísticas.
+
+En primera instancia se deben seleccionar centros comerciales como se seleccionan conglomerados en cualquier estudio tradicional de muestreo complejo.
+
+En una segunda etapa, se debe cuidar el donde(entradas del mall o interiores) y cuando(horarios) se muestrea dentro de cada centro comercial, para no permitir sesgos por diferencias en los comportamientos de la posible muestra seleccionada con respecto al total de la población.La composición y comportamiento de las personas puede variar en función de los lugares del centro  y las horas donde muestrea.
+
+Finalmente, para controlar el sesgo , los datos deben ser pesados en función de la cantidad de visitas al mall(entre menos visitas, mayor debe ser el peso).Corregir por sexo y otras variables también puede disminuir los sesgos de la muestra seleccionada(las mujeres tienen mayor probabilidad de se seleccionadas).
+
+A pesar de todos los controles, estas muestras se mantienen sesgadas.Por lo que a pesar de la ganancia en costos con respecto a estudios cara a cara tradicionales, se deben evitar si las presentaciones visuales u otro aspecto sensorial no son requeridas en cada entrevista, en donde los estudios telefónicos producen mayor margen de ganancia en costo-beneficio.
+
+#Introducción
+
+¿De que manera se puede tomar ventaja de los grandes aglomeraciones de personas para obtener información valiosa en temas mercadológicos? ¿ Cómo se pueden ahorrar costos con respecto a los estudios por encuesta tradicionales sin afectar de manera importante la generalización de los resultados?
+
+El presente documento busca introducir al lector en el muestreo de poblaciones móviles, como una alternativa al muestreo tradicional.El contexto del trabajo es enmarcado en poblaciones humanas,detallando con total énfasis en estudios de tipo de encuestas en el ámbito del mercadeo.Lo anterior no indica que este tipo de estudios pueda ser llevado a otros contextos y con otros métodos de investigación.
+
+El muestreo en poblaciones móviles ha sido ampliamente desarrollado en el ámbito de la biología y la ecología, para el conteo y estudio de vida silvestre.El método de captura-recaptura es uno de los más populares en este área y casi imprescindible para estudios de abundancia, para programas de monitoreo y para muchas investigaciones ecológicas *(Nichols,2000)*.Sin embargo estos métodos no se limitan a poblaciones que no sean humanas, un ejemplo es el estudio realizado para estimar la oferta de médicos especialistas en Colombia *(Calderón,2001)*.
+
+Este trabajo por otra parte, está basado en el artículo "*Improving the Quality of shopping Center Sampling*" de Seymour Sudman, reconocido muestrista que brindó valiosos aportes en la metodología de muestreo en poblaciones móviles *(Kalton,2001)*.
+
+Específicamente, el artículo introduce el muestreo en centros comerciales y genera pautas o guías para las mejores prácticas de este tipo de muestreo cuando se trabaja en estos establecimientos de gran afluencia  de personas.Los estándares que plantea son en la metodología y procedimientos objetivos en la  selección de la muestra y en la reducción de sesgos debido a que estas poblaciones no siempre se comportan y se estructuran como la población general.
+
+El autor indica que este método es uno de los más utilizados en investigación de mercado debido al relativo bajo costo de aplicarlo, no obstante la generalización del resultado es complicada.
+
+Entre las ventajas prácticas se menciona que no existen desplazamientos grandes de los entrevistadores y se pueden investigar en diferentes dimensiones sensoriales que no se pueden utilizar en las encuestas telefónicas(pruebas visuales,táctiles,de gusto, etc).
+
+En algunas aplicaciones como el desarrollo inicial de productos, la rigurosidad de estudios tradicionales no es requerida, ya que la población general se puede comportar en ciertas ocasiones como la población que asiste a centros comerciales.
+
+Sin embargo, este tipo de muestreo involucra supuestos que en la práctica son de difícil cumplimiento, por lo que el ajuste a los datos es  crucial para disminuir el sesgo que produce la toma de datos de estas poblaciones.
+
+# Supuestos básicos de muestreo en centros comerciales
+
+La primera delimitación del artículo, es que basa sus supuestos en muestras que sean generalizables para la población de todo un país o toda una región.
+
+En este sentido, el supuesto clave es que todos los habitantes de este país o región tengan probabilidad igual y mayor que cero de ser encontrados en el centro comercial.Claramente, este supuesto esta lejos de cumplirse en la realidad.Muchas personas o familias no asisten o casi no asisten a estos lugares por una gran cantidad de motivos.No incluír a estas personas puede causar sesgo, que variará de magnitud en función del tópico de la encuesta.Algunas investigaciones no pueden ser llevadas a cabo en centros comerciales, por ejemplo estudios de ingresos, por su alta disparidad con la población general.
+
+
+# Selección de la muestra 
+
+Inicialmente, cualquier muestra formal en centros comerciales debe seguir los procedimientos clásicos de muestreo de áreas probabilístico, con probabilidad proporcional al tamaño a la cantidad de clientes.Lo que se utiliza usualmente es el volumen total de ventas por centro comercial.Puede existir la posibilidad de que la administración del centro no permita la realización de la encuesta, por lo que estos establecimientos deben ser sustituidos por lugares semejantes, en términos de tamaño y área geográfica.
+
+El tamaño de muestra óptimo puede ser calculado con la fórmula clásica que toma en cuenta costos:
+
+Usualmente, los centros comerciales son considerados conglomerados y por lo tanto esto incrementa la variancia con respecto a un muestreo simple.Si la muestra es para la población del país, se debe incluír más de un centro comercial para poder calcular los errores muestrales.
+
+# Selección de locaciones a muestrear dentro de cada centro comercial
+
+La selección de los informantes puede realizarse en las entradas  o propiamente dentro del mall.Una ventaja de escoger las entradas es que no requiere información de cuanto tiempo a pasado en el centro comercial, ya que las personas con más tiempo en el lugar tendrán más posibilidad de ser seleccionados.
+
+## Muestreo en entradas del centro comercial
+
+Una muestra con menor sesgo requiere que todas las entradas tengan alguna probabilidad de inclusión en la muestra.Algunas entradas pueden ser utilizadas por solo algún tipo específico de público.De esta manera, las entradas deben ser seleccionadas en función de la cantidad de personas que reciben.
+
+Como en cualquier muestreo de conglomerados, esta selección debe ser realizada en dos formas:
+
+* Las entradas pueden ser seleccionadas con la misma probabilidad y con la misma razón de de frecuencia de cada n-esimo cliente.Este procedimiento puede ser ineficiente ya que se debe gastar tiempo en entradas con poca afluencia.Además las variancias pueden incrementarse debido a los diferentes tamaños de muestra en cada entrada.
+
+* Se puede muestrear las entradas con probabilidad proporcial al tamaño al número de clientes que ingresan.Este dato se puede obtener de conteos anteriores.De esta forma, muestrear clientes en cada entrada será inversamente proporcional a la medida de su tamaño.Las entradas con poca afluencia serán muestreadas en menor frecuencia, pero cada cliente a lo interno de estas entradas tendrá mayor probabilidad de ser incluído en la muestra, conservando la fracción total de muestreo.
+
+## Muestreo dentro del centro comercial
+
+Si por algún motivo, la selección debe realizarse dentro del mall, la selección se puede complicar, pero es realizable.Idealmente las locaciones deben ser seleccionadas con probabilidad proporcional al tráfico.Se deben establecer reglas para establecer los límites de las zonas y la escogencia de personas en caso de "empates", para que la selección no sea ambigua.
+
+# Selección de los horarios a muestrear
+
+Las características de las personas que visitan los malls puede variar según la temporada, día del mes, de la semana,horario e incluso otros aspectos menos predecibles como el clima o eventos especiales.El autor asume que las variaciones por efectos estacionales han sido comtempladas.
+
+Los horarios deben de tratarse con la misma seriedad que las locaciones y muestrearse similarmente.Lo primero que se debe decidir es la periodicidad de cada segmento temporal, que puede depender del largo de la entrevista.
+
+La exclusión arbitraria o por sencillez de algunos periodos( debido a la gran afluencia o poca cantidad de público) puede sesgar debido a la exclusión de clientes que compran en esos periodos.
+
+El diseño más sencillo es muestrar todos los periodos con igual probabilidad, pero esto no es eficiente, debido a que en algunos periodos pasará mucho tiempo para cumplir con la muestra.
+
+La solución planteada por el autor es muestrear fracciones iguales de tiempo proporcional al número de clientes que se esperan en cada periodo.Sin embargo, estos conteos deben ser robustos( más de una semana para evitar ruido aleatorio en los patrones de visita).De igual manera que con el procedimiento de las locaciones, el procedimiento es autoponderado.
+
+Sin embargo, a pesar de que se realicen estimaciones de la frecuencia de personas en cada horario y entrada, el número actual de visitantes variará por efectos aleatorios no controlados en la medición, que generarán un cambio en el tamaño de muestra, que no es deseado pero puede ser controlado si se cuenta con información adicional, para realizar ajustes en las medidas de tamaño.
+
+Un aspecto muy importantes es que se supone que solo el número y no las características de la población se ven afectadas por eventos especiales o el clima.Sin este supuesto, se debería tomar un conteo de una cantidad de tiempo que pueda representar fielmente a la población objetivo.
+
+Otro aspecto importante es que la entrevista y la selección de las personas debe realizarse por al menos dos personas para evitar eliminar la probabilidad de selección de algunas personas.No necesariamente la entrevista debe ser reliazada en el momento de la selección, esta puede ser postergada según la disponibilidad del informante.
+
+# Probabilidad de visita
+
+Como se ha mencionado hasta ahora, es importante controlar y muestrar las variables de cuando, donde y con que frecuencia van al mall los visitantes, ya que no existe una forma práctica de controlar estas variables mediante la realización de preguntas en estos aspectos al informante.
+
+No obstante, una razonable estimación de que tan a menudo visita el centro puede obtenerse si el periodo de tiempo es suficientemente corto.
+
+## Escogencia del periodo de tiempo a preguntar
+
+Como muchos otros tipos de actividad, el olvido o el efecto telescopio puede surgir cuando se pregunta por la frecuencia de visita al mall.De esta manera, el autor señala que periodos que no sean muy cortos ni muy largos ( entre dos semanas y un mes) son recomendables para realizar esta pregunta.
+
+Un tipo de pregunta sería la siguiente:
+
+* ¿ Cuantas veces en el último mes(dos semanas) ha visitado usted este centro comercial, sin incluír esta visita?
+
+El supuesto es que no todos los informantes responderán de manera perfecta, pero que los errores se netean y no están relacionados con el tópico de la investigación.
+
+Si la selección ocurrió dentro y no en las entradas, una pregunta adicional debe ser realizada para estimar el momento de llegada de la persona.Esta pregunta es necesaria ya que existen diferencias demográficas en el tiempo consumido en el centro comercial entre las personas.
+
+Otro supuesto implícito que se realiza es que los compradores que visitan de manera muy rara el centro comercial representan adecuadamente a las personas que nunca van al mall.
+
+## Procedimientos para pesar las personas seleccionadas
+
+El autor indica que se debe aplicar el inverso de  del número de visitas de cada persona, dandole más peso a los entrevistados con menor cantidad de visitas.De manera similar, se debe de pesar inversamente según el tiempo de estadía en el mall, en el caso de cuando las locaciones no son las entradas.
+
+Este procedimiento puede reducir el sesgo si los supuestos no son violados fuertemente.Sin embargo, es poco probable que esto suceda, por lo que aún realizando estos procedimientos los resultados pueden tener algún grado de sesgo.
+
+Además el procedimiento de pesos incrementa los errores de muestreo, pero el costo de este muestreo facilita tamaños de muestra más altos que pueden reducir este problema.
+
+##Submuestreo basado en el número de visitas
+
+En lugar del procedimiento de pesos, se puede realizar un submuestreo basado en la cantidad de visitas mencionadas por las personas de la muestra.De esta manera se dará mayor probabilidad de realizar la entrevista o ser seleccionado en la muestra final a las personas con menor frecuencia de visita.Sin embargo este procedimiento es evitado porque complica la logística de campo.
+
+## Cuotas
+
+Las cuotas pueden reducir la variancia del muestreo y a su vez no dependen de la memoria del entrevistado para la frecuencia de compra.La mayor desventaja es que dentro de cada cuota, los individuos tienen distintas probabilidades de selección.
+
+El autor señala que el uso de cuotas en conjunto con los pesos pueden disminuir de manera importante los sesgos.
+
+El primer control obvio es la variable sexo, ya que está demostrado que las mujeres tienden a comprar más y a aparecer más en las muestras en centros comerciales.De manera similar la condición de empleo y el grupo de edad debe ser controlado con este método.Este último es de mayor dificultad a la hora de llenar una cuota, ya que esta información no es tan fácil determinarla como si lo es el sexo.Mediante algunos estudios, el autor demuestra que considerando estos aspectos el sesgo( comparando con un estudio de muestreo tradicional) puede ser reducido de una manera importante y se puede mantener sobre el 10%, porcentaje que es aceptable para muchas investigaciones, debido a las ganancias en costos.
+
+#Conclusión
+
+Se ha introducido al lector en el muestreo de poblaciones móviles, para el caso específico de estudios en centros comerciales para investigaciones de mercado.
+
+Se mencionaron los principales supuestos, que son difíciles de cumplir en la práctica y que por ende se debe considerar un sesgo latente que siempre estará presente, sobre todo en los estudios nacionales, debiso a que la población general no se comporta ni se compone de la misma forma que la población que asiste a los centros comerciales.
+
+A pesar de esto, se señalaron procedimientos rigurosos para poder minimizar este y otros sesgos.La selección de la muestra debe realizarse tomando en cuenta una dupla importante de aspectos: tiempo u horario de muestreo y lugares del centro en los que se realizará la muestra.Realizar estas muestras con probabilidad proporcional al tamaño, genera diseños eficientes y autoponderados, si los conteos realizados son fiables.
+
+También se mencionaron aspectos para controlar la muestra debido a que las personas que visitan más los centros comerciales tienen mayor probabilidad de selección.Para esto se puede utilizar submuestreo o el uso de pesos, además del uso de cuotas para reajustar la muestra y hacerla parecerse en estructura a la población general.
+
+Este tipo de estudios, controlados de una manera objetiva y metódica, pueden ser importantes fuentes de información en las investigaciones de mercado, siempre y cuando se tolere cierto grado de sesgo en beneficio en los ahorros en tiempo y costo.Sin embargo, el autor recomienda no utilizarlos solo cuando no se requieren presentaciones visuales u otro aspecto sensorial, donde por lo general los estudios telefónicos son más baratos.
+
+#Referencias
+
+
+
+```{r Ref,echo=FALSE,message=FALSE,results="asis",warning=FALSE}
+
+library(knitcitations)
+
+
+
+ref1 <- citep("10.1590/S1020-49892001000600006")
+ref2 <- citep("10.1080/01621459.1972.10482383")
+
+
+
+bibliography()
+
+```
+
+Walker, R.S.; A.J. Novaro y J.D. Nichols. "Consideraciones para la estimación de abundancia de poblaciones de mamíferos". Considerations for the estimation of abundance of mammal populations.
+
