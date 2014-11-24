@@ -92,6 +92,44 @@ Un aspecto muy importantes es que se supone que solo el número y no las caracte
 
 Otro aspecto importante es que la entrevista y la selección de las personas debe realizarse por al menos dos personas para evitar eliminar la probabilidad de selección de algunas personas.No necesariamente la entrevista debe ser reliazada en el momento de la selección, esta puede ser postergada según la disponibilidad del informante.
 
+
+La siguiente tabla muestra un ejemplo de un centro comercial con dos entradas y subdividido en varios lapsos temporales de una hora, en donde se indica el Mta de cada UPM(combinación de lapso temporal por entrada del mall) y si la UPM fue seleccionada:
+
+
+**Tabla 1: Medidas de tamaño hipotéticas para un centro comercial, por horario, día de la semana y entrada**
+
++-----------+------------+------------+---------+--------+---------+--------+---------+--------+---------+--------+---------+--------+---------+--------+
+| Horario   | Dom 1      |  Dom     2 |Lun   1  | Lun   2|Mar    1 | Mar 2  |Mie    1 | Mie 2  |Jue    1 | Jue 2  |Vie    1 | Vie 2  |Sab    1 | Sab 2  |
++===========+============+============+=========+========+=========+========+=========+========+=========+========+=========+========+=========+========+
+| 10 AM     | 26         | 9          |   3     | 1      |   5     | 2      |   8     | 3      |   10    | 3      |   23    | 8      |**18X**  | 6      |
++-----------+------------+------------+---------+--------+---------+--------+---------+--------+---------+--------+---------+--------+---------+--------+
+| 11 AM     |  26        | 9          |    3    |   1    |**5XX**  |   2    |   8     |   3    |    10   |   3    |    23   |   8    |    18   |   6    |
++-----------+------------+------------+---------+--------+---------+--------+---------+--------+---------+--------+---------+--------+---------+--------+
+| 12 MD     | 52         | 17         |   5     | 2      |   10    | 3      |   15    | 5      |   21    | 7      |   46    | 15     |   36    | 12     |
++-----------+------------+------------+---------+--------+---------+--------+---------+--------+---------+--------+---------+--------+---------+--------+
+| 01 PM     |  77        | 26         |    8    |   3    |    15   |   5    |    23   |   8    |   31    |   10   |**70X**  |   23   |    54   |   18   |
++-----------+------------+------------+---------+--------+---------+--------+---------+--------+---------+--------+---------+--------+---------+--------+
+| 02 PM     |**103XX**   |   **34X**  |   10    | **3X** |   21    | 7      |   31    | 10     |**41X**  | 14     |   93    | 31     |   72    | 24     |
++-----------+------------+------------+---------+--------+---------+--------+---------+--------+---------+--------+---------+--------+---------+--------+
+| 03 PM     |**129XX**   | 43         |    13   |   4    |    26   |**9X**  |**39XX** |   13   |    52   |   17   |**116X** |   39   |**90X**  | **30X**|
++-----------+------------+------------+---------+--------+---------+--------+---------+--------+---------+--------+---------+--------+---------+--------+
+| 04 PM     | 155        | **52X**    |   15    | 5      |   31    | 10     |   46    | 15     |   62    | 21     |**139X** | **46X**| 108     | 36     |
++-----------+------------+------------+---------+--------+---------+--------+---------+--------+---------+--------+---------+--------+---------+--------+
+| 05 PM     |**180XX**   | 60         | 18      |   6    |    36   |   12   |    54   | **18X**|**72X**  |   24   |    162  |   54   |**126X** |   42   |
++-----------+------------+------------+---------+--------+---------+--------+---------+--------+---------+--------+---------+--------+---------+--------+
+| 06 PM     |**206XX**   |  **69X**   |   21    | 7      |   41    | 14     |   62    | 21     |   82    |**27X** |**185X** | 62     |**144X** | 48     |
++-----------+------------+------------+---------+--------+---------+--------+---------+--------+---------+--------+---------+--------+---------+--------+
+| 07 PM     |**232XX**   |   **77X**  |    23   |   8    | **46XX**|   15   | **70XX**|   23   |    93   |   31   |**209X** | **70X**|**162X** |   54   |
++-----------+------------+------------+---------+--------+---------+--------+---------+--------+---------+--------+---------+--------+---------+--------+
+| 08 PM     |**258XX**   | 86         | **26X** |9       |    52   |   17   |    77   | **26X**| **103X**|   34   |**232X** |   77   |**180X** | **60X**|
++-----------+------------+------------+---------+--------+---------+--------+---------+--------+---------+--------+---------+--------+---------+--------+
+
+> **Notas**      
+X: Una selección.   
+XX: Dos selecciones.     
+
+La tabla anterior se basa en una muestra hipotética en la cuál la medida del tamaño total es de 10 mil visitas distribuidas por cada UPM(combinación de horario más entrada) según la frecuencia de visita.Se realiza una selección ppt de 47 UPMs según sus medidas de tamaño.Esto se refleja en la selección, ya que los días sábados y domingos se realizan más selecciones.Además la entrada 1 por tener mayor tráfico también recibe más atención.
+
 # Probabilidad de visita
 
 Como se ha mencionado hasta ahora, es importante controlar y muestrar las variables de cuando, donde y con que frecuencia van al mall los visitantes, ya que no existe una forma práctica de controlar estas variables mediante la realización de preguntas en estos aspectos al informante.
